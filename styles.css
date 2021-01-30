@@ -14,5 +14,18 @@ body {
 
 .container-blue-aj {
   background-color: #DCE5E2;
-  height: 350px;
+}
+
+.container-bio-aj {
+  background-color: #C4CFDA;
+}
+
+.img {
+  padding: 20px;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.row-padding-aj {
+  padding: 2%;
 }
