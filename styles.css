@@ -81,3 +81,13 @@ body {
 #jessieauguste-intro {
   padding-left: 5%;
 }
+/* Footer */
+footer {
+  background-color: #C4CFDA;
+  padding: 5%;
+}
+
+.button-aj {
+ background-color:#141B41;
+ color:#C4CFDA;
+}

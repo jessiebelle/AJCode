@@ -42,7 +42,7 @@
       </nav>
 
     <!-- Introduction -->
-    <div class="container-blue-aj no-padding container-fluid">
+    <div class="container-blue-aj container-fluid" style="width: 100% !important;">
         <div class="container-fluid ">
             <div id="row-aj" class="row">
               <div class="col container-fluid">
@@ -133,16 +133,18 @@
 <!-- Footer / sign up -->
     <footer>
         <h4>AJ Code</h4>
-        <p>Sign up to our weekly newsletter!</p>
+        <p id="demo">Sign up to our weekly newsletter!</p>
         <form>
             <div id="email-signup">
                 <label for="exampleInputEmail1">Email address</label>
                 <input type="email" aria-describedby="emailHelp" placeholder="example@example.com" size="50">
-                <button type="submit" class="btn btn-primary" style="display: inline;">Sign Up</button>
+                <button type="button" onclick="myFunction()" class="btn button-aj" style="display: inline;">Sign Up</button>
             </div>
         </form>
     </footer>
+    <!-- JS for navbar -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="ajhomepage.js"></script>
 </body>
 </html>
