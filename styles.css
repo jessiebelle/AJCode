@@ -6,19 +6,44 @@ body {
 
 .intro {
   font-size: 80px;
+  padding-left: 20px;
 }
 
 .introducing {
   font-size: 60px;
+  padding-top: 50px;
+  padding-left: 20px;
 }
 
 .container-blue-aj {
   background-color: #DCE5E2;
-  padding: 20px;
+  padding: 100px;
+  width: 100%;
 }
 
 .container-bio-aj {
   background-color: #C4CFDA;
+  width: 100%;
+}
+
+.jessie-square-pic {
+  margin-left: -60px;
+  vertical-align: middle;
+  border-radius: 50%;
+  height: 170px;
+  width: 170px;
+}
+
+.intro-pics-aj {
+  position: float;
+}
+
+.intro-aj {
+  padding-top: 20px;
+}
+
+#row-aj {
+  margin: 0;
 }
 
 .img {
@@ -33,4 +58,20 @@ body {
 
 .twitter-aj {
   align-content: center;
+}
+
+.amber-bio {
+  padding-right: 220px;
+}
+
+.jessie-bio {
+  padding-right: 220px;
+}
+
+#ambershand-intro {
+  padding-left: 100px;
+}
+
+#jessieauguste-intro {
+  padding-left: 100px;
 }
