@@ -23,8 +23,11 @@ body {
   color: white;
 }
 
-.our-blue {
-  color: #141B41;
+.navbar-custom {
+  background-color: #141B41;
+  color: white;
+  padding: 0.6%;
+  
 }
 
 .lisa-lime {
