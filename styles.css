@@ -17,13 +17,22 @@ body {
   padding-right: 0%;
 }
 .container-blue-aj {
-  background-color: #DCE5E2;
+  background-color: #141B41;
   padding: 10%;
   width: 100%;
+  color: white;
+}
+
+.our-blue {
+  color: #141B41;
+}
+
+.lisa-lime {
+  background-color: limegreen;
 }
 /* Bios */
 .container-bio-aj {
-  background-color: #C4CFDA;
+  background-color: #d0d3d9;
   width: 100%;
 }
 .jessie-square-pic {
@@ -75,4 +84,22 @@ footer {
 .button-aj {
  background-color:#141B41;
  color:#C4CFDA;
+}
+
+/* PROJECTS PAGE */
+
+.column-projects-aj {
+  float: left;
+  width: 33.33%;
+}
+
+.col-sm  {
+  margin: 2%;
+  padding: 10%;
+  border: #141B41;
+  background-color: #C4CFDA;
+}
+
+#footer-projects {
+  margin-top: 10%;
 }
