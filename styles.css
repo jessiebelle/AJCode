@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
-
 body {
   font-family: 'Roboto Mono', monospace;
- 
 }
 /* Header Test */
 .intro {
   font-size: 500%;
   padding-left: 5%;
 }
-
 .introducing {
   font-size: 300%;
   padding-top: 10%;
@@ -29,7 +26,6 @@ body {
   background-color: #C4CFDA;
   width: 100%;
 }
-
 .jessie-square-pic {
   margin-left: -60px;
   vertical-align: middle;
@@ -37,51 +33,46 @@ body {
   height: 170px;
   width: 170px;
 }
-
 .intro-pics-aj {
   position: float;
 }
-
 .intro-aj {
   padding-top: 20px;
 }
-
 #row-aj {
   margin: 0;
   margin-left: 0%;
   margin-right: 0%;
 }
-
 .img {
   padding: 2%;
   vertical-align: middle;
   border-radius: 50%;
 }
-
 .row-padding-aj {
   padding: 2%;
 }
-
 .twitter-aj {
   align-content: center;
 }
-
 .amber-bio {
   padding-right: 15%;
 }
-
 .jessie-bio {
   padding-right: 15%;
 }
-
 #ambershand-intro {
   padding-left: 5%;
 }
-
 #jessieauguste-intro {
-  padding-left: 100px;
+  padding-left: 5%;
 }
-
-#projects-aj {
-  padding: 30%;
+/* Footer */
+footer {
+  background-color: #C4CFDA;
+  padding: 5%;
+}
+.button-aj {
+ background-color:#141B41;
+ color:#C4CFDA;
 }
