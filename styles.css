@@ -89,6 +89,13 @@ footer {
  color:#C4CFDA;
 }
 
+.form-footer-aj {
+  display: inline;
+}
+
+.first-name-footer-aj {
+  display: inline;
+}
 /* PROJECTS PAGE */
 
 .column-projects-aj {
@@ -105,4 +112,10 @@ footer {
 
 #footer-projects {
   margin-top: 10%;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
 }
