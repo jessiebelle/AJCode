@@ -23,8 +23,11 @@ body {
   color: white;
 }
 
-.our-blue {
-  color: #141B41;
+.navbar-custom {
+  background-color: #141B41;
+  color: white;
+  padding: 0.6%;
+  
 }
 
 .lisa-lime {
@@ -86,6 +89,13 @@ footer {
  color:#C4CFDA;
 }
 
+.form-footer-aj {
+  display: inline;
+}
+
+.first-name-footer-aj {
+  display: inline;
+}
 /* PROJECTS PAGE */
 
 .column-projects-aj {
@@ -93,13 +103,24 @@ footer {
   width: 33.33%;
 }
 
-.col-sm  {
+.col-sm-projects-aj  {
   margin: 2%;
   padding: 10%;
   border: #141B41;
   background-color: #C4CFDA;
+  transition: transform .9s;
 }
 
 #footer-projects {
   margin-top: 10%;
+}
+
+.col-sm-projects-aj:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+.project-section {
+  padding-top: 10%;
 }
