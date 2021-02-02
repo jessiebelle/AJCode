@@ -66,6 +66,12 @@ body {
 }
 .twitter-aj {
   align-content: center;
+  display: inline;
+}
+
+#twitter {
+  margin: 2%;
+  margin-left: 15%;
 }
 .amber-bio {
   padding-right: 15%;
