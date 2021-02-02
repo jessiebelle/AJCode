@@ -64,6 +64,8 @@ body {
 .row-padding-aj {
   padding: 2%;
 }
+
+/* Twitter section  */
 .twitter-aj {
   align-content: center;
   display: inline;
@@ -97,13 +99,16 @@ footer {
 
 .form-footer-aj {
   display: inline;
+
 }
 
-.first-name-footer-aj {
-  display: inline;
+footer {
+  text-align: center;
 }
-/* PROJECTS PAGE */
 
+.signup-aj {
+  padding: 1%;
+}
 .column-projects-aj {
   float: left;
   width: 33.33%;
