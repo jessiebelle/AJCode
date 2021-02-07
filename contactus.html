@@ -42,7 +42,7 @@
       </div>
     </nav>
   </nav>
-  <div class="container-fluid"> 
+  <!-- <div class="container-fluid"> 
       <div class="mb-3" >
         <div class="project-section">
     <label for="exampleFormControlInput1" class="form-label">Email address</label>
@@ -50,9 +50,9 @@
         </div>
        </div>
     </div>
-  </div>
+  </div> -->
 <!-- <div class="project-section"> -->
-  <div class="container-fluid" ></div>
+  <!-- <div class="container-fluid" ></div>
     <div class="mb-3">
     <label for="exampleFormControlInput1" class="form-label">Name</label>
     <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
@@ -67,13 +67,128 @@
 
 <div class="containter-fluid" id="sumbit">
     <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Let us know what you'd 
+    <textarea class="form-control" rows="3" placeholder="Let us know what you'd 
     like to talk about"></textarea>
-  </div>
-
+  </div> -->
+<!-- new contact form -->
+  <!-- <button type="button" onclick="messagePost()" class="btn button-aj" style="display: inline;">Submit</button>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script src="ajhomepage.js"></script> -->
+  <br>
+  <br>
+  <br>
+  <br>
+  <br> <br>
+  <div class="container">
+    <header class="header">
+      <h1 id="title" class="text-center">Get in Touch</h1>
+      
+      <p id="description"> Would you like to find out more about our work? Talk about collaborating? Or have any other type of question </p>
+      
+        <form 
+              id= "survey-form" 
+              action="">
+          <label for="name" id= "name-label">Name</label> 
+    <input 
+           id= "name" 
+           type="name" 
+           placeholder="First Name"
+           required>
+          <label for="name" id= "name-label">Last Name</label> 
+     <input 
+            type="name" 
+            placeholder="Last Name">
+  <br>
+  <label for="email" id= "email-label">Email</label> 
+  
+    <input 
+               type="email"
+               name="email"
+               id="email"
+               class="form-control"
+               placeholder="Enter your email"
+               required>
+    <label for="number" id= "number-label">Number</label> 
+    <input 
+               type="number"
+               name="number"
+               id="number"
+               class="form-control"
+               placeholder="phone number"
+                min=3
+                max= 9
+           required
+               >
+      <legend>What topic would you like to discuss?</legend>
+    <div>
+      <input type="checkbox" id="coding" name="interest" value="coding">
+      <label for="coding">Coding</label>
+    </div>
+    <div>
+         <input type="checkbox" id="podcast" name="interest" value="podcast">
+      <label for="coding">Amber's Podcast</label>
+    </div>
+    <div>
+      <input type="checkbox" id="100days" name="interest" value="100days">
+      <label for="music">#100DaysOfCode</label>
+    </div>
+    <div>
+    <label name="stage" type="tech">How would you describe your current stage in your tech journey?</label>
+      <div>
+    <input  
+           id= "radio" 
+           type="radio"
+           name="stage"
+           value="study">
+      <label for= "study"
+              name="stage" 
+              type= "radio"  
+              >Studying</label><br>
+       <input  
+              id= "radio" 
+              type="radio" 
+              value="transition" 
+              name= "stage">
+    <label for="transition"
+           >Transitioning</label><br>
+     <input  
+            id= "radio" 
+            name= "stage" 
+            type="radio" 
+            value= "full-time">
+      <label for="full-time">Full Time</label><br>
+  </select>
+    </div>
+    <br>
+    <textarea class="form-control" rows="3" placeholder="Let us know what you'd like to talk about"></textarea> 
+    <br>
+    <label
+          id="dropdown">Have you joined our mailing list?</label>
+        <select id="dropdown" name="mailing">
+          <label id= "dropdown"  value="">Select Option</label>
+          <option id="dropdown"
+                  value="Yes">Yes</option>
+          <option id="dropdown"
+                  value="No">No, but sign me up</option>
+          <option id="dropdown"
+                  value="Maybe">No, please don't</option>
+        </select>
+      
+    </div>
+   <br>
+      <label for="agree">I agree to submitting my details</label> 
+    <input value= "agreed" 
+           type="checkbox" 
+           name="agree" 
+           required>
+  <br>
+    
   <button type="button" onclick="messagePost()" class="btn button-aj" style="display: inline;">Submit</button>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
   integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   <script src="ajhomepage.js"></script>
+  </form>
+    </main>
 </body>
 </html>
