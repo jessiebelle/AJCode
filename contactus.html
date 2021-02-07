@@ -84,7 +84,7 @@
     <header class="header">
       <h1 id="title" class="text-center">Get in Touch</h1>
       
-      <p id="description"> Would you like to find out more about our work? Talk about collaborating? Or have any other type of question </p>
+      <p id="description"> Would you like to find out more about our work, talk about collaborating or anything else? Fill out the form below and we'll be in touch </p>
       
         <form 
               id= "survey-form" 
@@ -120,7 +120,7 @@
                 max= 9
            required
                >
-      <legend>What topic would you like to discuss?</legend>
+      <p id="description">What topic would you like to discuss?</p>
     <div>
       <input type="checkbox" id="coding" name="interest" value="coding">
       <label for="coding">Coding</label>
@@ -134,35 +134,36 @@
       <label for="music">#100DaysOfCode</label>
     </div>
     <div>
-    <label name="stage" type="tech">How would you describe your current stage in your tech journey?</label>
-      <div>
-    <input  
-           id= "radio" 
-           type="radio"
-           name="stage"
-           value="study">
-      <label for= "study"
-              name="stage" 
-              type= "radio"  
-              >Studying</label><br>
-       <input  
-              id= "radio" 
-              type="radio" 
-              value="transition" 
-              name= "stage">
-    <label for="transition"
-           >Transitioning</label><br>
-     <input  
-            id= "radio" 
-            name= "stage" 
-            type="radio" 
-            value= "full-time">
-      <label for="full-time">Full Time</label><br>
-  </select>
+   
     </div>
     <br>
-    <textarea class="form-control" rows="3" placeholder="Let us know what you'd like to talk about"></textarea> 
+    <textarea class="form-control" rows="3" placeholder="Let us know in more detail about what you'd like to discuss"></textarea> 
     <br>
+    <label name="stage" type="tech">How would you describe your current stage in your tech journey?</label>
+    <div>
+  <input  
+         id= "radio" 
+         type="radio"
+         name="stage"
+         value="study">
+    <label for= "study"
+            name="stage" 
+            type= "radio"  
+            >Studying</label><br>
+     <input  
+            id= "radio" 
+            type="radio" 
+            value="transition" 
+            name= "stage">
+  <label for="transition"
+         >Transitioning</label><br>
+   <input  
+          id= "radio" 
+          name= "stage" 
+          type="radio" 
+          value= "full-time">
+    <label for="full-time">Full Time</label><br>
+</select>
     <label
           id="dropdown">Have you joined our mailing list?</label>
         <select id="dropdown" name="mailing">
